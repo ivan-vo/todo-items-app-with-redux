@@ -1,0 +1,90 @@
+body *{
+    border-radius: 10px;
+    margin: 5px;
+}
+.App{
+    display: flex;
+    flex-direction: row;
+}
+.tasks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    max-width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.tasks h1{
+    flex: 100%;
+    margin-left: 10%;
+}
+.not-corect-date{
+    color: red;
+}
+.list-name{
+    width: 100%;
+    margin-left: 40%;
+}
+.todo-list-sidebar{
+    border: 2px solid rgb(255, 189, 103);
+    min-width: 200px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.todo-list-sidebar .activ-link{
+    color: rgb(255, 189, 103);
+}
+
+.item {
+    border: 2px solid rgb(255, 189, 103);
+    max-width: 320px;
+    min-width: 260px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    color: rgb(44, 42, 42);
+    text-decoration: none;
+}
+.description {
+    color: rgb(98, 105, 165);
+    font-size: 90%;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+.button-delete {
+    margin-right: 15px;
+    border: none;
+    background-color: rgb(185, 185, 185);
+    padding: 4px 8px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 20px;
+    background-color: rgb(240, 230, 184);
+    padding: 8px;
+}
+form button{
+    margin-top: 10px;
+    background-color: rgb(151, 253, 83);
+    border: none;
+    padding: 10px 0px;
+    color: aliceblue;
+    font-size: 120%;
+}
+form input{
+    margin: 6px 0px;
+    border-style: solid;
+    border-color: rgb(255, 189, 103);
+}
